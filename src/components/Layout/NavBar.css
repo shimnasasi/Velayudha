@@ -1,0 +1,106 @@
+.navWrapper {
+  width: 100%;
+  height: 60px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  color: var(--green);
+  justify-content: space-around;
+}
+.Navleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navleft img {
+  width: 60px;
+}
+.Name {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-transform: uppercase;
+  /* justify-content: start; */
+  text-transform: uppercase;
+  text-align: left;
+}
+.Velayudha {
+  font-size: 27px;
+  font-weight: 900;
+  line-height: 15px;
+}
+.pharma {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+}
+.wrapperBtmNav {
+  width: 100%;
+  height: 40px;
+  background-color: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list1 {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  font-weight: 600;
+  color: var(--white);
+}
+.list2{
+  display: none;
+}
+.list1 a,
+.list2 a {
+  text-decoration: none;
+  color: var(--white);
+}
+.list1 a:hover,
+.list2 a:hover {
+  color: yellow;
+}
+
+@media (max-width: 424px) {
+  .navWrapper {
+    justify-content: center;
+  }
+  .Navleft {
+    gap: 2rem;
+  }
+  .wrapperBtmNav {
+    display: none;
+  }
+  .icons {
+    position: fixed;
+    right: 10px;
+    bottom: 20%;
+    flex-direction: column;
+  }
+  .list2 {
+    position: absolute;
+    width: 100%;
+    background-color: var(--green);
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+  }
+}

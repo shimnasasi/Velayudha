@@ -1,0 +1,30 @@
+.HSWrapper {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.servicecard {
+  width: 18rem;
+  height: 25rem;
+  box-shadow: 0.5px 0.5px 5px 1px rgb(204, 204, 204);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.servicecard img {
+  width: 15rem;
+}
+.servicecard p {
+  width: 90%;
+  text-align: center;
+}
+.servicecard:hover {
+  border-bottom: 5px solid var(--green);
+  transition: 100ms;
+}
