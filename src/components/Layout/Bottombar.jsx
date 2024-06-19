@@ -10,7 +10,7 @@ const Bottombar = () => {
           <li>Home</li>
         </Link>
         <Link to={"/about"}>
-          <li>About</li>
+          <li>About Us</li>
         </Link>
         <Link to={"/services"}>
           <li>Service</li>
@@ -19,7 +19,7 @@ const Bottombar = () => {
           <li>Products</li>
         </Link>
         <Link to={"/contact"}>
-          <li>Contact</li>
+          <li>Contact Us</li>
         </Link>
       </ul>
     </div>

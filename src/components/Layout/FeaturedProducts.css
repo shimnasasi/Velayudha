@@ -1,0 +1,16 @@
+.categoriesBtn {
+  padding: 5px 15px;
+  border-radius: 2rem;
+  border: 1px solid var(--yellow);
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.FeaturedWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  min-height: 10rem;
+}
