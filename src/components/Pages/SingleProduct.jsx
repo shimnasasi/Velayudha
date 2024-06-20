@@ -5,7 +5,7 @@ const SingleProduct = () => {
   return (
     <Layout>
       <div>SingleProduct</div>
-    </  Layout>
+    </Layout>
   );
 };
 
