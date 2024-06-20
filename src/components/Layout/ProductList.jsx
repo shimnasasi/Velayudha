@@ -1,22 +1,19 @@
 import React from "react";
 import "./ProductList.css";
 import medicine from "../../utils/MedList.json";
-import { FaSquareWhatsapp } from "react-icons/fa6";
-import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductList = () => {
   return (
     <div className="productList">
       {medicine.map((item) => (
-        <div className="productInfo">
-          <img src={item.image} alt="" className="Product_image" />
-
-          <h4>{item.name}-250ml </h4>
-          {/* <div className="productIcons">
-            <FaEye />
-            <FaSquareWhatsapp />
-          </div> */}
-        </div>
+        <Link to={`/products/${item.id}`}>
+          <div className="productInfo">
+            <img src={item.image} alt="" className="Product_image" />
+            <span className="nameProduct">{item.name}-250ml </span>
+            <span className="price">100₹</span>
+          </div>
+        </Link>
       ))}
     </div>
   );

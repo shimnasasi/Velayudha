@@ -6,6 +6,7 @@ import Services from "./components/Pages/Services";
 import Contact from "./components/Pages/Contact";
 import Products from "./components/Pages/Products";
 import PNF from "./components/Pages/PNF";
+import SingleProduct from "./components/Pages/SingleProduct";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/products/:id" element={<SingleProduct />} />
           <Route path="*" element={<PNF />} />
         </Routes>
       </BrowserRouter>
