@@ -32,7 +32,7 @@ const Footer = () => {
         <FaEnvelope className="footerIcons" />
         <FaXTwitter className="footerIcons" />
       </div>
-      <div className="footerlist">
+      {/* <div className="footerlist">
         <Link to={"/"}>
           <li className="footerLower">home</li>
         </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
         <Link to={"/Contact"}>
           <li className="footerLower">Contact</li>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

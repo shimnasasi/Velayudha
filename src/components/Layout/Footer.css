@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .leftFooter {
   display: flex;
@@ -69,9 +68,9 @@
   align-items: center;
   height: 40px;
   gap: 10px;
-  text-transform: capitalize;justify-content: end;
+  text-transform: capitalize;
+  justify-content: end;
 }
-
 .footerlist a {
   color: #fff;
   text-decoration: none;

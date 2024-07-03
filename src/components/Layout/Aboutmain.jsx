@@ -3,11 +3,13 @@ import "./Aboutmain.css";
 import Imgcard from "./Imgcard";
 import ButtonExplore from "../common/ButtonExplore";
 import MainHead from "../common/MainHead";
+import img2 from '../../Assets/Images/home/home.jpg'
 
 function Aboutmain() {
   return (
     <div className="aboutmainwrapper">
-      <Imgcard imagesrc="https://img.freepik.com/premium-photo/herbs-spices-ayurvedic-medicine-products-herbal-medicine-products-background_677428-1783.jpg?w=360"/>
+      {/* <Imgcard imagesrc="https://img.freepik.com/premium-photo/herbs-spices-ayurvedic-medicine-products-herbal-medicine-products-background_677428-1783.jpg?w=360"/> */}
+      <Imgcard imagesrc={img2}/>
       <div className="aboutmaindetails">
         <MainHead Heading={"About us"}/>
         <h3>A Legacy of Holistic Healing Since 1948</h3>

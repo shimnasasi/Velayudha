@@ -47,6 +47,7 @@
   justify-content: center;
   gap: 20px;
   font-size: 30px;
+  color:var(--green);
 }
 .wrapperBtmNav {
   width: 100%;
@@ -75,6 +76,9 @@
 .list2 a:hover {
   color: yellow;
 }
+.contactIcon{
+  cursor: pointer;
+}
 
 @media (max-width: 424px) {
   .navWrapper {
@@ -88,9 +92,11 @@
   }
   .icons {
     position: fixed;
+    z-index: 20;
     right: 10px;
     bottom: 20%;
     flex-direction: column;
+    color: var(--darkgreen);
   }
   .list2 {
     position: absolute;

@@ -28,10 +28,10 @@ const NavBar = () => {
         </div>
         <div className="navRight">
           <div className="icons">
-            <FaPhoneSquareAlt />
-            <FaSquareWhatsapp />
-            <FaInstagramSquare />
-            <FaFacebookSquare />
+            <FaPhoneSquareAlt className="contactIcon" />
+            <FaSquareWhatsapp className="contactIcon" />
+            <FaInstagramSquare className="contactIcon" />
+            <FaFacebookSquare className="contactIcon" />
           </div>
         </div>
       </div>

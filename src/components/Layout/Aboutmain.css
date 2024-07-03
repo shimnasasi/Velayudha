@@ -5,8 +5,8 @@
   width: 100%;
   height: 80vh;
   font-family: "Bebas Neue", sans-serif;
+  background-color: var(--lightgreen);
 }
-
 .aboutmaindetails {
   width: 100%;
   height: 80vh;
@@ -14,13 +14,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  /* gap: 10px; */
 }
-
 .aboutmaindetails h3 {
   color: var(--green);
 }
 .aboutmaindetails .aboutmainpara {
   width: 55%;
   text-align: justify;
+}
+@media (max-width: 426px) {
+  .aboutmainwrapper {
+    flex-direction: column;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutmaindetails {
+    height: 100%;
+    padding: 2rem 0;
+    align-items: center;
+  }
+  .aboutmaindetails .aboutmainpara{
+    width: 80%;
+  }
 }

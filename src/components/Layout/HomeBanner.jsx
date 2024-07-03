@@ -10,7 +10,7 @@ const HomeBanner = () => {
         <br /><span className="pharmabannersub">
           Embracing Holistic Healing Since 1948
         </span>
-        {/* <br /> */}
+        <br />
         <p>
           For more than 70 years, Velayudha pharmacy & Clinic has been a trusted
           name in Ayurvedic medicine. Founded by Velayudha vaidhyar, our clinic

@@ -5,3 +5,11 @@
   color: var(--yellow);
   font-family: "Bebas Neue", sans-serif;
 }
+@media (max-width: 426px) {
+  .MainHeading {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 90%;
+  }
+}
