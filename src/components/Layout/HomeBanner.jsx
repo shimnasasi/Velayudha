@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeBanner.css";
-import { FaAnglesRight } from "react-icons/fa6";
 
 const HomeBanner = () => {
   return (
@@ -8,16 +7,18 @@ const HomeBanner = () => {
       <div className="content">
         <span className="ayurbanner">Velayudha</span>
         <span className="pharmabanner">pharmacy & Clinic</span>
+        <br /><span className="pharmabannersub">
+          Embracing Holistic Healing Since 1948
+        </span>
         {/* <br /> */}
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia cum
-          repellat aspernatur tenetur consequatur, maiores animi cupiditate at
-          harum voluptate excepturi dolor. Repellendus, laborum quibusdam sed ab
-          quidem blanditiis.
+          For more than 70 years, Velayudha pharmacy & Clinic has been a trusted
+          name in Ayurvedic medicine. Founded by Velayudha vaidhyar, our clinic
+          has been dedicated to providing authentic and effective treatments
+          that address the root causes of ailments, rather than just the
+          symptoms.
         </p>
-        <button>
-          Explore 
-        </button>
+        <button>Explore</button>
       </div>
     </div>
   );

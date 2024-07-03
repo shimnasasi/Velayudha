@@ -1,0 +1,45 @@
+.LegacyCardwrapper {
+  background-color: #f1f1f1;
+  width: 18rem;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.LegacyCardwrapper img {
+  width: 11rem;
+  height: 12rem;
+  border-radius: 100%;
+  border: 1rem solid var(--white);
+}
+.imagewrapperaboutteam {
+  /* width: 10.2rem; */
+  /* height: 10.2rem; */
+  border-radius: 100%;
+  border: 5px solid var(--green);
+  display: flex;
+  justify-content: center;
+}
+.aboutteamdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+.aboutteamparagrap{
+    padding: 0 20px;
+}
+.aboutteamname{
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+.aboutteamperiod{
+    font-size: 14px;
+    color: var(--green);
+}

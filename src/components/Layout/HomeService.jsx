@@ -1,41 +1,26 @@
 import React from "react";
 import "./HomeService.css";
+import MainHead from "../common/MainHead";
+
+import HServiceCard from "../common/HServiceCard";
 
 const HomeService = () => {
   return (
     <div className="HSWrapper">
-      <div className="servicecard">
-        <img
-          src="https://liveright.in/wp-content/uploads/2020/10/Medicine.png"
-          alt=""
-        />
-        <h3>Service 3</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia
-          repudiandae aspernatur.
-        </p>
-      </div>
-      <div className="servicecard">
-        <img
-          src="https://liveright.in/wp-content/uploads/2020/10/Medicine.png"
-          alt=""
-        />
-        <h3>Service 3</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia
-          repudiandae aspernatur.
-        </p>
-      </div>
-      <div className="servicecard">
-        <img
-          src="https://liveright.in/wp-content/uploads/2020/10/Medicine.png"
-          alt=""
-        />
-        <h3>Service 3</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia
-          repudiandae aspernatur.
-        </p>
+      <MainHead Heading={"Experience Our Exclusive Care"} />
+      <span className="homeservicepara">
+        We offer a comprehensive range of Ayurvedic treatments and services
+        designed to promote balance and well-being, including:
+      </span>
+      <div className="serviceslist">
+       <HServiceCard/>
+       <HServiceCard/>
+       <HServiceCard/>
+       <HServiceCard/>
+       <HServiceCard/>
+       <HServiceCard/>
+       <HServiceCard/>
+       <HServiceCard/>
       </div>
     </div>
   );

@@ -1,0 +1,55 @@
+.contactMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 100px;
+    font-family: "Bebas Neue", sans-serif; 
+}
+
+.cardWrapper {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 300px; */
+    /* padding: 50px 0; */
+    gap: 1rem;
+    /* border: 1px solid ; */
+}
+
+
+
+.contactDetails {
+    width: 23rem;
+    height: 10rem;
+    /* border: 1px solid ; */
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 0.5px var(--yellow) ;
+    padding-left: 20px;
+}
+
+.contactHead ,.heading{
+    color: var(--yellow);
+}
+
+/* color:var(--green) */
+.map 
+{
+    height: 400px;
+    width: 640px;
+    /* display: flex; */
+}
+
+.linkContact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    text-align: right;
+    border: 1px solid;
+}
+.para 
+{
+    font-size: large;
+    display: flex;align-items: center;
+}

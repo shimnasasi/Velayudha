@@ -1,0 +1,7 @@
+.MainHeading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1rem;
+  color: var(--yellow);
+  font-family: "Bebas Neue", sans-serif;
+}

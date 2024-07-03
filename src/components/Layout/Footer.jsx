@@ -20,11 +20,9 @@ const Footer = () => {
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, nihil!
-          Commodi architecto, ipsam minima quam omnis velit unde laborum! Quis
-          magnam aut nulla excepturi modi veniam consequuntur deleniti minus
-          est. magnam aut nulla excepturi modi veniam consequuntur deleniti
-          minus est.
+          where tradition meets excellence. Established in 1948, we have been
+          dedicated to the art and science of Ayurveda for over seven decades,
+          offering natural and holistic healthcare solutions to our community.
         </p>
       </div>
       <div className="FooterLinks">

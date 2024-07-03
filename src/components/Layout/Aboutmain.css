@@ -1,0 +1,26 @@
+.aboutmainwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.aboutmaindetails {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  /* gap: 10px; */
+}
+
+.aboutmaindetails h3 {
+  color: var(--green);
+}
+.aboutmaindetails .aboutmainpara {
+  width: 55%;
+  text-align: justify;
+}

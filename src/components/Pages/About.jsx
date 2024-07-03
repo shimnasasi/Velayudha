@@ -1,14 +1,19 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import PageTop from "../Layout/PageTop";
-import { Link } from "react-router-dom";
-import { FaAngleDoubleRight } from "react-icons/fa";
+import AboutInfo from "../Layout/AboutInfo";
+import AboutTeam from "../Layout/AboutTeam";
+import Aboutmain from "../Layout/Aboutmain";
+import AboutHeritage from "../Layout/AboutHeritage";
+import AboutJoin from "../Layout/AboutJoin";
 
 const About = () => {
   return (
     <Layout>
-      <PageTop PageName="About Us" />
-      <div>About</div>
+      {/* <AboutTeam /> */}
+      <Aboutmain/>
+      <AboutHeritage/>
+      <AboutJoin/>
     </Layout>
   );
 };
