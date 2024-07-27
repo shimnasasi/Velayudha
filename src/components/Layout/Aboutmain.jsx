@@ -11,8 +11,10 @@ function Aboutmain() {
       {/* <Imgcard imagesrc="https://img.freepik.com/premium-photo/herbs-spices-ayurvedic-medicine-products-herbal-medicine-products-background_677428-1783.jpg?w=360"/> */}
       <Imgcard imagesrc={img2}/>
       <div className="aboutmaindetails">
-        <MainHead Heading={"About us"}/>
-        <h3>A Legacy of Holistic Healing Since 1948</h3>
+        <h3>About us</h3>
+        <MainHead Heading={"A Legacy of Holistic Healing Since 1948"}/>
+        {/* <MainHead Heading={"About us"}/> */}
+        <br />
         <div className="aboutmainpara">
           Welcome to our esteemed Ayurveda clinic, where tradition meets
           excellence. Established in 1948, we have been dedicated to the art and

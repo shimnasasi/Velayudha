@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomeService.css";
 import MainHead from "../common/MainHead";
-
+import serviceList from "../../utils/services.json";
 import HServiceCard from "../common/HServiceCard";
 
 const HomeService = () => {
@@ -12,15 +12,11 @@ const HomeService = () => {
         We offer a comprehensive range of Ayurvedic treatments and services
         designed to promote balance and well-being, including:
       </span>
+
       <div className="serviceslist">
-       <HServiceCard/>
-       <HServiceCard/>
-       <HServiceCard/>
-       <HServiceCard/>
-       <HServiceCard/>
-       <HServiceCard/>
-       <HServiceCard/>
-       <HServiceCard/>
+        {serviceList.map((list) => (
+          <HServiceCard name={list.service}/>
+        ))}
       </div>
     </div>
   );

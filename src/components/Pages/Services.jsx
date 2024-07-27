@@ -1,12 +1,11 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import PageTop from "../Layout/PageTop";
+import Sidebar from "../Layout/Sidebar";
 
 const Services = () => {
   return (
     <Layout>
-      <PageTop PageName="Services"/>
-      <div>Services</div>
+      <Sidebar/>
     </Layout>
   );
 };

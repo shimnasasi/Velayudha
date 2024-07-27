@@ -21,7 +21,7 @@ const HomeCount = () => {
 
           <span className="Countvelayudha">Velayudha</span>
           <span className="Countpharma">Pharmacy & Clinic</span>
-          <span className="CountAchive">Our  Achievements</span>
+          <span className="CountAchive">Our Achievements</span>
           <br />
         </div>
         <div className="counterList">
@@ -30,7 +30,7 @@ const HomeCount = () => {
               <FaAward />
             </span>
             <span className="Count">
-              {counterOn && <CountUp start={0} end={75} duration={2} />}+
+              {counterOn && <CountUp start={0} end={75} duration={10} />}+
             </span>
             <span className="Info"> Years Experience</span>
           </div>
@@ -39,7 +39,7 @@ const HomeCount = () => {
               <ImHappy />
             </span>
             <span className="Count">
-              {counterOn && <CountUp start={0} end={100} duration={2} />}K+
+              {counterOn && <CountUp start={0} end={100} duration={10} />}K+
             </span>
             <span className="Info"> Happy Customers</span>
           </div>
@@ -48,7 +48,7 @@ const HomeCount = () => {
               <GiMedicinePills />
             </span>
             <span className="Count">
-              {counterOn && <CountUp start={0} end={100} duration={2} />}+
+              {counterOn && <CountUp start={0} end={100} duration={10} />}+
             </span>
             <span className="Info"> Products</span>
           </div>
@@ -57,7 +57,7 @@ const HomeCount = () => {
               <MdOutlineGppGood />
             </span>
             <span className="Count">
-              {counterOn && <CountUp start={0} end={100} duration={2} />}%
+              {counterOn && <CountUp start={0} end={100} duration={10} />}%
             </span>
             <span className="Info">Quality</span>
           </div>

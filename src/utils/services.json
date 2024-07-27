@@ -1,0 +1,42 @@
+[
+  {
+    "serviceName": "Arthritis",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  },
+  {
+    "serviceName": "Migraine,Sinusitis",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  },
+  {
+    "serviceName": "Diabetics",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  },
+  {
+    "serviceName": "Skin treatment",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  },
+  {
+    "serviceName": "Hair fall & Dandruf",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  },
+  {
+    "serviceName": "Depression & Anxiety",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  },
+  {
+    "serviceName": "Gastric Problem",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  },
+  {
+    "serviceName": "Immunity booster Program",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
+    "image": "https://media.istockphoto.com/id/1156927918/photo/pain-in-all-joints-conceptual-artwork-3d-illustration.jpg?s=612x612&w=0&k=20&c=0aW5xPag6lAuPBUlzBISzWB80WOJaj_nv0MJhpSvAZI="
+  }
+]

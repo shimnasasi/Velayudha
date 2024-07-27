@@ -35,7 +35,7 @@ function AboutHeritage() {
       <div className="AboutHeritagetop">
         <span className="heritage"> Our Heritage</span>
         <p className="AboutHeritagepara">
-          Founded by the visionary [Founder's Name], our clinic has a
+          Founded by the visionary Velayudha Vaidhyar, our clinic has a
           long-standing history of providing authentic Ayurvedic treatments.
           From a modest beginning, we have grown into a trusted name in
           Ayurveda, committed to the principles of natural healing and overall

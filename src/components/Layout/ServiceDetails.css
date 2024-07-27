@@ -1,0 +1,18 @@
+.seviceDetails {
+    width: 60%;
+    font-family: "Bebas Neue", sans-serif;  
+  }
+  .seviceDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: justify;
+  }
+  .ServiceDetalsList h1 {
+    color: var(--yellow);
+  }
+  .seviceDetails img {
+    width: 25rem;
+    margin-right: 5rem;
+  }
