@@ -48,12 +48,14 @@
   gap: 20px;
   font-size: 30px;
   color: var(--green);
+  /* color: red; */
 }
 .icons a {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--green);
+  /* color: red; */
 }
 .wrapperBtmNav {
   width: 100%;
@@ -86,7 +88,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 424px) {
+@media (max-width: 426px) {
   .navWrapper {
     justify-content: center;
   }
@@ -102,6 +104,9 @@
     right: 10px;
     bottom: 20%;
     flex-direction: column;
+    color: var(--darkgreen);
+  }
+  .icons a {
     color: var(--darkgreen);
   }
   .list2 {
