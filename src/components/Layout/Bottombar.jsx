@@ -15,9 +15,7 @@ const Bottombar = () => {
         <Link to={"/services"}>
           <li>Service</li>
         </Link>
-        <Link to={"/products"}>
-          <li>Products</li>
-        </Link>
+
         <Link to={"/contact"}>
           <li>Contact Us</li>
         </Link>

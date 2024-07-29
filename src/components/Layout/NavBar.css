@@ -47,7 +47,13 @@
   justify-content: center;
   gap: 20px;
   font-size: 30px;
-  color:var(--green);
+  color: var(--green);
+}
+.icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--green);
 }
 .wrapperBtmNav {
   width: 100%;
@@ -64,7 +70,7 @@
   font-weight: 600;
   color: var(--white);
 }
-.list2{
+.list2 {
   display: none;
 }
 .list1 a,
@@ -76,7 +82,7 @@
 .list2 a:hover {
   color: yellow;
 }
-.contactIcon{
+.contactIcon {
   cursor: pointer;
 }
 

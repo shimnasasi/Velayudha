@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
 import ServiceDetails from "./ServiceDetails";
-import serviceList from "../../utils/services.json";
+import img1 from "../../Assets/Images/services/Arthritis.jpg";
+import { serviceDetailsList } from "../../utils/services";
 
 const Sidebar = () => {
   const [serviceName, setServiceName] = useState("Diabetics");
@@ -39,30 +40,17 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      {serviceList
+      {serviceDetailsList
         .filter((item) => item.serviceName === serviceName)
         .map((list) => (
-          <ServiceDetails
-            service={list.serviceName}
-            description={list.description}
-            image={list.image}
-          />
+          <div className="DisDetails">
+            <div className="DisDetailsInfo">
+              <h1>{list.serviceName}</h1>
+              <h3>{list.description}</h3>
+            </div>
+            <img className="DisDetailsImg" src={list.image} alt="" />
+          </div>
         ))}
-
-      {/* {serviceList.map((list)=>(
-        <ServiceDetails />
-      ))} */}
-
-      {/* {console.log(serviceList)}
-      {serviceList
-        .filter((item) => item.service === serviceName)
-        .map((list) => (
-          <ServiceDetails
-            description={list.description}
-            image={list.image}
-            service={list.service}
-          />
-        ))} */}
     </div>
   );
 };

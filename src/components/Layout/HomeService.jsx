@@ -1,8 +1,9 @@
 import React from "react";
 import "./HomeService.css";
 import MainHead from "../common/MainHead";
-import serviceList from "../../utils/services.json";
+
 import HServiceCard from "../common/HServiceCard";
+import { serviceDetailsList } from "../../utils/services";
 
 const HomeService = () => {
   return (
@@ -14,8 +15,8 @@ const HomeService = () => {
       </span>
 
       <div className="serviceslist">
-        {serviceList.map((list) => (
-          <HServiceCard name={list.service}/>
+        {serviceDetailsList.map((list) => (
+          <HServiceCard service={list.serviceName} />
         ))}
       </div>
     </div>

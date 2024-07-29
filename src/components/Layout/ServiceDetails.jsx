@@ -8,7 +8,7 @@ const ServiceDetails = ({ service, description, image }) => {
         <h1>{service}</h1>
         <h3>{description}</h3>
       </div>
-      <img src={image} alt="" />
+      <img className="dImage" src={image} alt="" />
     </div>
   );
 };

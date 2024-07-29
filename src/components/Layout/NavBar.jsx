@@ -28,10 +28,18 @@ const NavBar = () => {
         </div>
         <div className="navRight">
           <div className="icons">
-            <FaPhoneSquareAlt className="contactIcon" />
-            <FaSquareWhatsapp className="contactIcon" />
-            <FaInstagramSquare className="contactIcon" />
-            <FaFacebookSquare className="contactIcon" />
+            <a href="">
+              <FaPhoneSquareAlt className="contactIcon" />
+            </a>
+            <a href="https://wa.me/+919562465095/?text=let me know more about *Velayudha Pharmacy and Clinic*">
+              <FaSquareWhatsapp className="contactIcon" />
+            </a>
+            <a href="">
+              <FaInstagramSquare className="contactIcon" />
+            </a>
+            <a href="">
+              <FaFacebookSquare className="contactIcon" />
+            </a>
           </div>
         </div>
       </div>
@@ -48,9 +56,7 @@ const NavBar = () => {
           <Link to={"/services"}>
             <li>Service</li>
           </Link>
-          <Link to={"/products"}>
-            <li>Products</li>
-          </Link>
+
           <Link to={"/contact"}>
             <li>Contact Us</li>
           </Link>

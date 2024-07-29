@@ -2,16 +2,14 @@ import React from "react";
 import "./HServiceCard.css";
 import logo from "../../Assets/Images/logo/shadowGreen.png";
 
-function HServiceCard({ name }) {
+function HServiceCard({ service }) {
   return (
     <div className="homeservicecard">
-      <img src={logo} alt="" />
-      <span className="servicecardname">{name}</span>
-
+      <img src={logo} alt="" />{" "}
       <span className="servicecardpara">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        voluptas saepe sint.
+        Velayudha Pharmacy & <br /> Clinic
       </span>
+      <span className="servicecardname">{service}</span>
     </div>
   );
 }

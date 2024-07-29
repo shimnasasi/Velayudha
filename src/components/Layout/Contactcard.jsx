@@ -24,12 +24,12 @@ const Contactcard = () => {
           <h2 className="heading">Contact no</h2>
           <p className="para">
             <FaPhoneSquareAlt />
-            +1234567890 <br />
+            +91-9745249762 <br />
           </p>
-          <p className="para">
+          {/* <p className="para">
             <FaPhoneSquareAlt />
             +1234567890
-          </p>
+          </p> */}
         </div>
         <div className="contactDetails">
           <h2 className="heading">Email</h2>

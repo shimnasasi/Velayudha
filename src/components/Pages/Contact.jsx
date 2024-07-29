@@ -6,7 +6,7 @@ import Contactcard from "../Layout/Contactcard";
 const Contact = () => {
   return (
     <Layout>
-      <PageTop PageName="Contact Us" />
+      {/* <PageTop PageName="Contact Us" /> */}
 
       {/* <div>Contact</div> */}
       <Contactcard/>

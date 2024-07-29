@@ -8,14 +8,15 @@ import img3 from "../../Assets/Images/legacy/3.png";
 function AboutHeritage() {
   const legecyinfo = [
     {
-      name: "Velayudha vaidhyar",
+      name: "Kolunny vaidyar  ",
       image: img2,
       period: "1948-1988",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
-      name: "Velayudha vaidhyar",
+      // name: "Kolunny vaidyar  ",
+      name: "Velayudhan vaidyar",
       image: img1,
       period: "1948-1988",
       details:
@@ -23,7 +24,7 @@ function AboutHeritage() {
     },
 
     {
-      name: "Velayudha vaidhyar",
+      name: "Dr.V.Venugopal BAMS",
       image: img3,
       period: "1948-1988",
       details:
@@ -35,7 +36,7 @@ function AboutHeritage() {
       <div className="AboutHeritagetop">
         <span className="heritage"> Our Heritage</span>
         <p className="AboutHeritagepara">
-          Founded by the visionary Velayudha Vaidhyar, our clinic has a
+          Founded by the visionary Kolunny vaidyar, our clinic has a
           long-standing history of providing authentic Ayurvedic treatments.
           From a modest beginning, we have grown into a trusted name in
           Ayurveda, committed to the principles of natural healing and overall
