@@ -12,8 +12,8 @@ const About = () => {
     <Layout>
       <Aboutmain/>
       <AboutHeritage/>
-      <Aboutmember/>
-      <AboutJoin/>
+      {/* <Aboutmember/>
+      <AboutJoin/> */}
     </Layout>
   );
 };

@@ -19,5 +19,11 @@
 .cardsLegacyheritage {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
+}
+@media(max-width:426px){
+  .AboutHeritagepara{
+    padding: 0;
+  }
 }
