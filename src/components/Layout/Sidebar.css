@@ -44,6 +44,9 @@
 .DisDetailsInfo {
   width: 500px;
 }
+.DisDetailsInfo h3 {
+  color: var(--darkgreen);
+}
 @media (max-width: 426px) {
   .servicemain {
     flex-direction: column;
@@ -54,5 +57,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .DisDetails {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .DisDetailsInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .DisDetailsInfo h3 {
+    color: var(--darkgreen);
+    text-align: center;
+    padding: 0 5px;
+  }
+  .DisDetailsImg{
+    width: 12rem;
+    height: 15rem;
+    box-shadow: 0 0 0 0 black;
+    /* box-shadow: 5px 5px 2px 2px var(--darkgreen); */
   }
 }
