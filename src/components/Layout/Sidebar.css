@@ -1,15 +1,22 @@
 .servicemain {
   display: flex;
   font-family: "Bebas Neue", sans-serif;
-  gap: 5rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
+.sidebar {
+  width: 20%;
+  /* border: 2px solid; */
+}
 .services {
   display: flex;
   flex-direction: column;
   list-style: none;
   gap: 1rem;
-  width: 15rem;
+  width: 100%;
+  align-items: center;
   min-height: 80vh;
   justify-content: center;
 }
@@ -26,7 +33,7 @@
 .DisDetails {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 10px;
 }
 .DisDetailsImg {
   width: 280px;
@@ -34,6 +41,18 @@
   border: 1px solid var(--green);
   box-shadow: 25px 25px 2px 2px var(--green);
 }
-.DisDetailsInfo{
+.DisDetailsInfo {
   width: 500px;
+}
+@media (max-width: 426px) {
+  .servicemain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

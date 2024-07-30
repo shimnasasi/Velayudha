@@ -13,32 +13,32 @@ const Sidebar = () => {
   return (
     <div className="servicemain">
       <div className="sidebar">
-        <ul className="services">
-          <li className="servicelist" onClick={serviceHandle}>
+        <div className="services">
+          <div className="servicelist" onClick={serviceHandle}>
             Arthritis
-          </li>
-          <li className="servicelist" onClick={serviceHandle}>
-            Migraine,Sinusitis
-          </li>
-          <li className="servicelist" onClick={serviceHandle}>
+          </div>
+          <div className="servicelist" onClick={serviceHandle}>
+            Migraine & Sinusitis
+          </div>
+          <div className="servicelist" onClick={serviceHandle}>
             Diabetics
-          </li>
-          <li className="servicelist" onClick={serviceHandle}>
+          </div>
+          <div className="servicelist" onClick={serviceHandle}>
             Skin treatment
-          </li>
-          <li className="servicelist" onClick={serviceHandle}>
+          </div>
+          <div className="servicelist" onClick={serviceHandle}>
             Hair fall & Dandruf
-          </li>
-          <li className="servicelist" onClick={serviceHandle}>
+          </div>
+          <div className="servicelist" onClick={serviceHandle}>
             Depression & Anxiety
-          </li>
-          <li className="servicelist" onClick={serviceHandle}>
+          </div>
+          <div className="servicelist" onClick={serviceHandle}>
             Gastric Problem
-          </li>
-          <li className="servicelist" onClick={serviceHandle}>
+          </div>
+          <div className="servicelist" onClick={serviceHandle}>
             Immunity booster Program
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
       {serviceDetailsList
         .filter((item) => item.serviceName === serviceName)
@@ -52,7 +52,7 @@ const Sidebar = () => {
           </div>
         ))}
     </div>
-  );
+  );  
 };
 
 export default Sidebar;

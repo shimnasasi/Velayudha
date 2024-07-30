@@ -15,7 +15,7 @@ export const serviceDetailsList = [
     image: service1
   },
   {
-    serviceName: "Migraine,Sinusitis",
+    serviceName: "Migraine & Sinusitis",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis eveniet nostrum ipsa dolorum saepe maiores rerum voluptate minima, quod in perspiciatis veniam similique impedit recusandae ea qui iste eligendi.",
     image: service2

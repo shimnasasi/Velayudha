@@ -87,10 +87,20 @@
 .contactIcon {
   cursor: pointer;
 }
+.logowhite{
+  display: none;
+  cursor: pointer;
+}
+.logogreen{
+  display: flex;
+  cursor: pointer;
+}
 
 @media (max-width: 426px) {
   .navWrapper {
     justify-content: center;
+    background-color: var(--green);
+    color: white;
   }
   .Navleft {
     gap: 2rem;
@@ -111,7 +121,9 @@
   }
   .list2 {
     position: absolute;
+    z-index: 50;
     width: 100%;
+
     background-color: var(--green);
     list-style: none;
     text-align: center;
@@ -119,5 +131,11 @@
     flex-direction: column;
     gap: 30px;
     padding: 20px 0;
+  }
+  .logowhite{
+    display: flex;
+  }
+  .logogreen{
+    display: none;
   }
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import logo from "../../Assets/Images/logo/shadowGreen.png";
+import logogreen from "../../Assets/Images/logo/shadowGreen.png";
+import logowhite from "../../Assets/Images/logo/whitelogo.png";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -15,7 +16,16 @@ const NavBar = () => {
       <div className="navWrapper">
         <div className="Navleft">
           <img
-            src={logo}
+            src={logowhite}
+            alt=""
+            className="logowhite"
+            onClick={() => {
+              setView(!view);
+            }}
+          />
+           <img
+            src={logogreen}
+            className="logogreen"
             alt=""
             onClick={() => {
               setView(!view);
