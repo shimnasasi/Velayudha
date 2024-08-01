@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../../Assets/Images/logo/whitelogo.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";

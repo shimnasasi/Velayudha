@@ -1,7 +1,8 @@
 .LegacyCardwrapper {
   background-color: #f1f1f1;
   width: 18rem;
-  height: 28rem;
+  /* min-height: 35rem; */
+  height: 35rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +32,12 @@
   align-items: center;
   text-align: center;
   gap: 0.5rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  color: var(--green);
+  /* font-family: "Bebas Neue", sans-serif; */
+  
+
 }
 .aboutteamparagrap{
     padding: 0 20px;
@@ -39,6 +45,9 @@
 .aboutteamname{
     font-size: 1.5rem;
     font-weight: 700;
+    color: var(--darkgreen);
+     font-family: "Bebas Neue", sans-serif;
+
     
 }
 .aboutteamperiod{

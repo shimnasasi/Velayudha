@@ -1,6 +1,6 @@
 .servicemain {
   display: flex;
-  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
   gap: 2rem;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,8 @@
 }
 .DisDetailsInfo h3 {
   color: var(--darkgreen);
+  text-align: justify;
+  padding-right: 20px;
 }
 @media (max-width: 426px) {
   .servicemain {
@@ -80,4 +82,5 @@
     box-shadow: 0 0 0 0 black;
     /* box-shadow: 5px 5px 2px 2px var(--darkgreen); */
   }
+  
 }

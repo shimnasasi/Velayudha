@@ -12,15 +12,16 @@ function AboutHeritage() {
       image: img2,
       period: "1948-1988",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    },
+        "With a deep understanding of the ancient wisdom of Ayurveda and a passion for healing, Kolunny Vaidyar has dedicated his life to helping others achieve balance and harmony Through his tireless efforts, Kolunny Vaidyar has become a beacon of hope for those seeking a more natural approach to healthcare, and his clinic continues to thrive as a haven for holistic wellness"
+    
+      },
     {
       // name: "Kolunny vaidyar  ",
       name: "Velayudhan vaidyar",
       image: img1,
       period: "1948-1988",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        "The proud son of renowned Ayurvedic practitioner Kolunny Vaidyar, who has carried forward his father's legacy with dedication and passion in his entire career. Following in his father's footsteps, Velayudha Vaidyar has expanded the family's traditional Ayurvedic practice, expanding Velayudha Pharmacy and Clinic as a beacon of holistic wellness."
     },
 
     {
@@ -28,7 +29,7 @@ function AboutHeritage() {
       image: img3,
       period: "1948-1988",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        "Harmoniously blended ancient Ayurvedic wisdom with modern healthcare practices, creating a unique and holistic approach to wellness. Velayudha Pharmacy and Clinic, named in honor of his father, stands as a testament to Dr. Venugopal's commitment to excellence and his dedication to carrying forward the his family's tradition of compassionate care."
     }
   ];
   return (

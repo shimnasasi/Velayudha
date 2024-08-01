@@ -5,7 +5,7 @@ import About from "./components/Pages/About";
 import Services from "./components/Pages/Services";
 import Contact from "./components/Pages/Contact";
 import PNF from "./components/Pages/PNF";
-import SingleProduct from "./components/Pages/SingleProduct";
+// import SingleProduct from "./components/Pages/SingleProduct";
 
 const App = () => {
   return (

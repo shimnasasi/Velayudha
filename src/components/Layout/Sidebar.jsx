@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import ServiceDetails from "./ServiceDetails";
-import img1 from "../../Assets/Images/services/Arthritis.jpg";
+// import ServiceDetails from "./ServiceDetails";
+// import img1 from "../../Assets/Images/services/Arthritis.jpg";
 import { serviceDetailsList } from "../../utils/services";
 import MainHead from "../common/MainHead";
 
 const Sidebar = () => {
-  const [serviceName, setServiceName] = useState("Diabetics");
+  const [serviceName, setServiceName] = useState("Arthritis");
 
   const serviceHandle = (e) => {
     setServiceName(e.target.innerText);
@@ -48,7 +48,7 @@ const Sidebar = () => {
             <div className="DisDetailsInfo">
               {/* <h1>{list.serviceName}</h1> */}
               <MainHead Heading={list.serviceName} />
-              <h3 >{list.description}</h3>
+              <h3>{list.description}</h3>
             </div>
             <img className="DisDetailsImg" src={list.image} alt="" />
           </div>

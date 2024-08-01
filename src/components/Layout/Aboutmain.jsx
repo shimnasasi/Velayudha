@@ -3,7 +3,7 @@ import "./Aboutmain.css";
 import Imgcard from "./Imgcard";
 import ButtonExplore from "../common/ButtonExplore";
 import MainHead from "../common/MainHead";
-import img2 from '../../Assets/Images/home/home.jpg'
+// import img2 from '../../Assets/Images/home/home.jpg'
 
 function Aboutmain() {
   return (

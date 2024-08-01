@@ -1,6 +1,6 @@
 import React from "react";
 import "./LegacyCard.css";
-import img3 from "../../Assets/Images/legacy/3.png";
+// import img3 from "../../Assets/Images/legacy/3.png";
 
 function LegacyCard({image,name,details}) {
   return (

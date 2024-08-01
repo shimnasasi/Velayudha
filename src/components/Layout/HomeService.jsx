@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeService.css";
-import MainHead from "../common/MainHead";
+// import MainHead from "../common/MainHead";
 
 import HServiceCard from "../common/HServiceCard";
 import { serviceDetailsList } from "../../utils/services";
@@ -8,7 +8,8 @@ import { serviceDetailsList } from "../../utils/services";
 const HomeService = () => {
   return (
     <div className="HSWrapper">
-      <MainHead Heading={"Experience  Our Exclusive Care"} />
+      {/* <MainHead Heading={"Experience  Our Exclusive Care"} /> */}
+      <h1 className="experiencehead">Experience  Our Exclusive Care</h1>
       <span className="homeservicepara">
         We offer a comprehensive range of Ayurvedic treatments and services
         designed to promote balance and well-being, including:
