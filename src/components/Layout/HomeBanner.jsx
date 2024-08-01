@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeBanner.css";
+import { Link } from "react-router-dom";
 
 const HomeBanner = () => {
   return (
@@ -7,7 +8,8 @@ const HomeBanner = () => {
       <div className="content">
         <span className="ayurbanner">Velayudha</span>
         <span className="pharmabanner">pharmacy & Clinic</span>
-        <br /><span className="pharmabannersub">
+        <br />
+        <span className="pharmabannersub">
           Embracing Holistic Healing Since 1948
         </span>
         <br />
@@ -18,7 +20,10 @@ const HomeBanner = () => {
           that address the root causes of ailments, rather than just the
           symptoms.
         </p>
-        <button>Explore</button>
+
+        <Link to={"/about"}>
+          <button>Explore </button>
+        </Link>
       </div>
     </div>
   );

@@ -57,5 +57,6 @@
 @media(max-width:426px){
   .LegacyCardwrapper{
     width: 15rem;
+    padding: 20px 0;
   }
 }
